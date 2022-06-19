@@ -444,7 +444,7 @@ An example of how using Gloo Mesh we'd easily mitigate the recent Log4Shell vuln
 
 ```bash
 
-kubectl apply -f - <<EOF
+kubectl apply -f - <<'EOF'
 apiVersion: security.policy.gloo.solo.io/v2
 kind: WAFPolicy
 metadata:
