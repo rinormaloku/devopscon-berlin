@@ -26,7 +26,7 @@ kubectl get pods -n frontend
 ## Deploy the backend service
 kubectl create ns backend
 kubectl label namespace backend istio.io/rev=1-12
-kubectl -n backend apply -f ./backend-cluster2.yaml
+kubectl -n backend apply -f ./backend-cluster1.yaml
 
 # verfiy backend running in cluster 1
 kubectl get pods -n backend
