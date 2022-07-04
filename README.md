@@ -88,6 +88,9 @@ spec:
     - kind: ALL
       labels:
         expose: "true"
+  options:
+    federation:
+      enabled: true
 EOF
 ```
 
